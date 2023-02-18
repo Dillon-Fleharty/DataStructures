@@ -270,6 +270,8 @@ bool IntSet::add(int anInt)
 
     data[used] = anInt;
     used++;
+   
+   return true;
 
 } // end add()
 
